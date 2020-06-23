@@ -21,8 +21,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'chatAleksey' do
-  # Pods for chatAleksey
+target 'AlekseyTok' do
+  # Pods for AlekseyTok
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -54,7 +54,7 @@ target 'chatAleksey' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'chatAlekseyTests' do
+  target 'AlekseyTokTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -71,10 +71,10 @@ target 'chatAleksey' do
   end
 end
 
-target 'chatAleksey-tvOS' do
-  # Pods for chatAleksey-tvOS
+target 'AlekseyTok-tvOS' do
+  # Pods for AlekseyTok-tvOS
 
-  target 'chatAleksey-tvOSTests' do
+  target 'AlekseyTok-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
